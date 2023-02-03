@@ -1,0 +1,211 @@
+.navs{
+    background-color: #082B59!important;
+    border-bottom: 0.6rem solid #D98555;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar-brand>h1{
+    font-size: 4rem;
+    padding-left: 2rem;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.logo_image{
+    height: 8rem;
+}
+.nav-item {
+    margin-right: 0.9rem;
+}
+.nav-link{
+    color: white !important;
+    font-size: 23px;
+}
+
+.nav-link:hover{
+    color: #D98555 !important;
+}
+.content_box{
+    padding: 3rem;
+    --bs-gutter-x: 0 !important;
+}
+.text-muted{
+    
+    padding-top: 3rem;
+    padding-right: 3.5rem;
+    font-size: 19.2px;
+    line-height: 38.4px;
+    font-weight: 400;
+    color: black !important;
+    text-align: justify;
+}
+.how-img{
+    margin-top: 7rem;
+}
+
+/* Body content start  */
+.body_conyainer {
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+.content {
+    display: flex;
+    padding-top: 3rem
+}
+
+.content_text {
+    width: 52%;
+    margin-bottom: 1rem;
+}
+.content_para{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.para_text {
+   /* padding-left: 3.5rem; */
+    /* padding-right: 3.5rem; */
+    font-size: 19.2px;
+    line-height: 38.4px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.content_image {
+    width: 47%;
+    padding-right: 1rem;
+}
+
+.bgimage>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 1rem;
+}
+
+.button>a {
+    padding: 0.6rem;
+    background-color: #59331D;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+}
+
+i{
+    color: #082B59;
+    padding-right: 0.5rem;
+}
+/* Body content end  */
+
+/* Footer CSS start  */
+.footer{
+    background-color: #082B59;
+    margin-top: -4px;
+}
+.footer_content{
+    padding: 1rem;
+}
+.para_one{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 19px;
+}
+.para_two{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 16px;
+}
+.social_link{
+    display: flex;
+    justify-content: center;
+}
+
+.social>i{
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+/* Footer CSS end  */
+ 
+
+/* navbar responsive CSS  */
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    position: absolute;
+    right: 0;
+}
+}
+@media (max-width: 479px){
+    .navbar-brand>h1{
+        font-size: 2rem;
+    }
+    }
+/* navbar resposnive CSS  */
+
+
+
+/* Media Query for responsive body content  */
+@media screen and (max-width: 768px) {
+
+    .body_conyainer {
+        margin-top: 2rem;
+        padding: 0;
+        padding-left: 1rem;
+
+    }
+    .content_image {
+        width: 100%;
+    }
+
+    .content_text {
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        padding-top: 3rem;
+        flex-wrap: wrap;
+    }
+    .para_text{
+        padding-right: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    
+    .body_conyainer {
+        margin-top: 2rem;
+        padding: 0;
+        padding-left: 1rem;
+
+    }
+    .content_image {
+        width: 100%;
+    }
+
+    .content_text {
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        padding-top: 3rem;
+        flex-wrap: wrap;
+    }
+}
+/* Media Query for responsive body content  */
+
+
